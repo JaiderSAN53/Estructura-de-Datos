@@ -2,12 +2,13 @@
 #define MAX 10 
 
 void llenarArray(int vector[MAX], int n);
+void mostrarArray(int vector[MAX], int n); 
 
 int main() { 
     int vector[MAX]; 
     int opc;  
     char confirm;
-    do{ 
+    do {
         printf("HOLA BIENVENID@S ;)\n");
         printf("Menu:\n");
         printf("1. Llenar array\n");
@@ -20,8 +21,12 @@ int main() {
         switch(opc) { 
             case 1: 
                 llenarArray (vector, MAX); 
-                break;  
-             case 5: {
+                break;   
+            case 2: 
+                mostrarArray (vector, MAX);
+                break; 
+            
+            case 5: {
                 char confirm;
                 printf(" Esta seguro que desea salir? (s/n): ");
                 scanf(" %c", &confirm);
@@ -48,4 +53,12 @@ void llenarArray(int vector[MAX], int n) {
         }
         
     }
-}
+} 
+void mostrarArray(int vector[MAX], int n) {
+    printf("Posicion cambiada:\n");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", vector[i]);
+    }
+    printf("\n");
+} 
+

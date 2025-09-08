@@ -46,5 +46,11 @@ se ha implementado un menú interactivo que permite al usuario elegir entre las 
 
 ## 🚀 Funcionalidades
 
-1. Mostrar mensaje de bienvenida.
-5. Salir del programa (con confirmación).
+- Mostrar mensaje de bienvenida.  
+1. llenar 
+2. Mostrar array
+
+5. Salir del programa (con confirmación). 
+
+### ✅ Funcionalidad implementada 
+se ha implementado la 2 opcion del menú que permite mostrar el array al usuario.
