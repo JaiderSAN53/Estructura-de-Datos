@@ -38,10 +38,11 @@ La función utiliza un bucle `for` para recorrer el arreglo y solicitar los valo
 
 ```c
 int tiempos[10];
-llenarArray(tiempos, 10);
+llenarArray(tiempos, 10); 
+```
 
-# 🧠 Menú Interactivo 
-se ha implementado un menú interactivo que permite al usuario elegir entre las siguientes opciones: 
+### 🧠 Menú Interactivo
+se ha implementado un menú interactivo que permite al usuario elegir entre las siguientes opciones:
 
 
 ## 🚀 Funcionalidades
