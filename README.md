@@ -45,9 +45,10 @@ llenarArray(tiempos, 10);
 se ha implementado un menú interactivo que permite al usuario elegir entre las siguientes opciones:
 
 ### ✅ Funcionalidad implementada 
-se ha implementado la 2 opcion del menú que permite mostrar el array al usuario. 
-se ha implementado la 3 opcion del menú que permite ordenar el array de menor a mayor usando Selection Sort. 
-se ha implementado la 5 opcion del menú que permite salir del programa con confirmación.
+- se ha implementado la 2 opcion del menú que permite mostrar el array al usuario. 
+- se ha implementado la 3 opcion del menú que permite ordenar el array de menor a mayor usando Selection Sort. 
+- la opcion 4 aun no se ha implementado.
+- se ha implementado la 5 opcion del menú que permite salir del programa con confirmación.
 
 
 ## 🚀 Funcionalidades
@@ -56,6 +57,6 @@ se ha implementado la 5 opcion del menú que permite salir del programa con conf
 1. llenar 
 2. Mostrar array
 3. Ordenar array (menor a mayor)
-
+4. Ordenar array (mayor a menor)
 5. Salir del programa (con confirmación).
 
