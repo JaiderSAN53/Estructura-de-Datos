@@ -3,7 +3,7 @@
 
 void llenarArray(int vector[MAX], int n);
 void mostrarArray(int vector[MAX], int n); 
-
+void selectionSort(int arreglo[MAX], int n); 
 int main() { 
     int vector[MAX]; 
     int opc;  
@@ -24,8 +24,10 @@ int main() {
                 break;   
             case 2: 
                 mostrarArray (vector, MAX);
+                break;  
+            case 3: 
+                selectionSort (vector, MAX);
                 break; 
-            
             case 5: {
                 char confirm;
                 printf(" Esta seguro que desea salir? (s/n): ");
@@ -62,3 +64,20 @@ void mostrarArray(int vector[MAX], int n) {
     printf("\n");
 } 
 
+void selectionSort(int arreglo[MAX], int n) {
+     for (int i = 0; i < n - 1; i++) {
+          int minIndex = i;
+          // Encontrar el mínimo en arreglo[i..n-1]
+         for (int j = i + 1; j < n; j++) {
+             if (arreglo[j] < arreglo[minIndex]) {
+                 minIndex = j;
+            }
+        }
+         // Intercambiar el mínimo encontrado con el elemento en i
+        int temp = arreglo[i];
+        arreglo[i] = arreglo[minIndex];
+        arreglo[minIndex] = temp;  
+        printf("\nintercambio %d con %d\n", arreglo[minIndex], arreglo[i]);
+        mostrarArray(arreglo, n);
+    }
+}
