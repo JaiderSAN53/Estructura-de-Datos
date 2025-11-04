@@ -25,4 +25,5 @@ Este proyecto simula un sistema básico de gestión de vuelos desarrollado en le
 
 ## 👥 Integrantes del Proyecto
 
-- Jaider Stiven Advincula Nuñez
+- Jaider Stiven Advincula Nuñez 
+- Luis Ernesto Oliveros 
